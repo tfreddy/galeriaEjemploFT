@@ -24,10 +24,10 @@ public class ImageViewHolder extends RecyclerView.ViewHolder {//funcion que se a
     }
 
     public void bindTo() {
-        ViewGroup.LayoutParams lp = image.getLayoutParams();
-        if (lp instanceof FlexboxLayoutManager.LayoutParams) {
-            FlexboxLayoutManager.LayoutParams flexboxLp = (FlexboxLayoutManager.LayoutParams)lp;
-            flexboxLp.setFlexGrow(1.0f);
-        }
+    ViewGroup.LayoutParams lp = image.getLayoutParams();
+    if (lp instanceof FlexboxLayoutManager.LayoutParams) {
+        FlexboxLayoutManager.LayoutParams flexboxLp = (FlexboxLayoutManager.LayoutParams)lp;
+        flexboxLp.setFlexGrow(1.0f);
     }
+}
 }
